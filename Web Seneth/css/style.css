@@ -1,0 +1,387 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.hero-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://s3.amazonaws.com/criteria-corp-object-store/assets/PositionPhotos/Construction_Workers.jpg");
+	height: 40%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 20px;
+
+}
+.hero-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-family: Arial, Verdana,sans-serif;
+
+}
+.hero-text button{
+  border: solid;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+ 
+
+}
+.hero-text button:hover{
+	background-color: #ffff1f;
+	color: darkred;
+
+}
+img{
+	float: left;
+}
+.p1{
+	text-align:center;
+	color: red;
+	font-size: 3px;
+}
+
+
+.whowe{
+     font-size: 40px;
+     color:  DarkCyan;
+     text-align: center;
+     line-height: 10px;
+     line-height: 2em;
+     margin-bottom: 6rem;
+}
+.whowe:after{
+    content: "";
+	width:10rem;
+	height: .8rem;
+	background-color: #ffff1f;
+	position: absolute;
+	bottom: 7em;
+	left: 75%;
+	transform: translateX(-75%);
+	border-radius: 2rem;
+	margin-top: 5rem;
+	
+}
+
+
+.button_who{
+	color: red;
+	background-color: #ffff1f;
+	border-radius: 2rem;
+	margin: 1rem 0;
+	color: #15161c;
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 15em;
+	ri
+
+}
+.button_who:hover{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
+}
+.button_who:active{
+	transform: translateY(0);
+	box-shadow: none;
+}
+
+.who{
+	font-size: 2rem;
+	margin: 1.8rem;
+	font-style: italic;
+	line-height: 3rem;
+
+
+}
+
+.div1{
+	height: 250px;
+	width: 100%;
+	background-color:#ffff1f;
+
+}
+.h3{
+	text-align: center;
+	font-size: 40px;
+	color: black;
+
+}
+.p5{
+	font-size: 30px;
+	color: black;
+}
+.p6{
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+
+	
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<OUR TEAM>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+*{
+	margin-bottom:0;
+	padding-bottom: 0;
+	box-sizing: border-box; 
+}
+html{
+	font-size: 10px;
+	font-family: "Roboto" ,sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+section{
+	padding:10rem 0;
+	background-image: #fff;
+}
+
+.heading_team{
+	text-transform: uppercase;
+	font-size: 3.5rem;
+	letter-spacing: 3px;
+	margin-right: -3px;
+	margin-bottom: 5rem;
+	text-align: center;
+	color: #333;
+	position: relative;
+
+}
+.heading_team:after{
+	content: "";
+	width:10rem;
+	height: .8rem;
+	background-color: #ffff1f;
+	position: absolute;
+	bottom: -1em;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 2rem;
+	margin-top: -5px;
+}
+.card_wrapper{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+
+}
+.card{
+	width: 23rem;
+	background-color: #ebeef8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 2rem 0;
+	box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
+}
+
+.card_img{
+	width: 100%;
+	height: 15rem;
+	object-fit: cover;
+	-webkit-clip-path:(0 0, 100% 0, 100% 73%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
+}
+.profile_img{
+	width: 15rem;
+	height: 15rem;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-top: -11rem;
+	z-index: 999;
+	border: 1rem solid #ebeef8;
+}
+.card h1{
+	font-size: 2.5rem;
+	color: #333;
+	margin: 1.5rem 0;
+}
+.job_title{
+	color: #777;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+.above{
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-style: italic;
+	text-align: center;
+	color: #333;
+}
+.btn{
+	padding: 1rem 2.5rem;
+	background-color: #ffff1f;
+	border-radius: 2rem;
+	margin: 1rem 0;
+	text-transform: uppercase;
+	color: #15161c;
+	font-size: 1.4rem;
+}
+
+.btn:hover{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
+}
+
+.btn:active{
+	transform: translateY(0);
+	box-shadow: none;
+}
+.social_media{
+	width: 100%;
+	list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.social_media i{
+	font-size: 3rem;
+
+}
+.fa-facebook-square{
+	color: #3b5999;
+}
+.fa-twitter-square{
+	color: #55acee;
+}
+.fa-instagram-square{
+	color:#cf5125 ;
+}
+.fa-linkedin-in{
+	color: #3b5999;
+}
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram-square:hover,
+.fa-linkedin-in:hover{
+	color: #ffff1f;
+}
+@media screen and (min-width: 700px){
+	.card_wrapper{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.card{
+		margin: 2rem;
+		transition: opacity .5s;
+	}
+	@keyframes fadeIn{
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+		.card:nth-child(1){
+			animation: fadeIn .5s .5s backwards;
+		}
+		.card:nth-child(2){
+			animation: fadeIn .5s 1s backwards;
+		}
+		.card:nth-child(3){
+			animation: fadeIn .5s 1.5s backwards;
+		}
+		.card:nth-child(4){
+			animation: fadeIn .5s 2s backwards;
+	   }
+	    .card:nth-child(5){
+			animation: fadeIn .5s 2.5s backwards;
+		}
+		.card:hover{
+			transform: scale(1,1.2);
+		}
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<CHOOSE_US>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.CHOOSE_US img{
+	width: 700px;
+	height: 600px;
+	align:left;
+}
+.footer_sen {
+	height: 600px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+.footer_sen .DCG_sen  {
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 300px;
+}
+.footer_sen .DCG_sen h2{
+	color: #FFC300;
+}
+
+
+.footer_sen .Services_sen {
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 200px;
+}
+.footer_sen .Services_sen h2{
+	color: #FFC300;
+}
+
+
+.footer_sen .Location_sen {
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 200px;
+}
+.Location_sen img{
+	margin-top: 10px;
+	height: 50px;
+	width: 50px;
+}
+.keepintouch_sen{
+	margin-left: 30px;
+}
+.keepintouch_sen img{
+	float: left;
+	margin-top: 10px;
+	height: 30px;
+	width: 30px;
+}
+.keepintouch_sen h2{
+	color: #FFC300;
+}
+.DCG-logo_sen img{
+	margin-top: 0px;
+	height: 150px;
+	width: 200px;
+}
+.DCG-logo_sen h2{
+	margin-top:100px;
+	color: #FFC300;	
+}
+/*Upscroll*/
+.up-scroll_sen button {
+	font-style: none;
+  margin: 50px 10px 0px 0px;
+  color: black;
+  font-size: 35px;
+  float: right;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}

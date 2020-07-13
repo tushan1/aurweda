@@ -1,0 +1,229 @@
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+/*Start of header*/
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background1.jpg);
+	width: 100%;
+    height: 969px;
+	background-size: cover;
+	background-position: center;
+}
+/*start of navigation bar*/
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 2%;
+	margin-left: 40%;
+}
+ul li {
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 15px;
+	border: 1px solid transparent;
+	font-weight: 500;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	transition: 0.6s ease;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0px;
+  background-color: none;
+  margin-left: -70px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 1s all;
+  animation: drop 0.8s ease;
+}
+@keyframes drop{
+	0%{
+		transform: scale(2,2) rotatex(90deg)
+	}
+	100%{
+		transform: scale(1,1) rotatex(0deg);
+	}
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+	transition: 0.6s ease;
+} 
+/*end of navigation bar */
+/*start of logo*/
+.logo img{
+	float: left;
+	margin-left: -350px;
+	width: 150px;
+	height: auto;
+	margin-top: -31px;
+}
+/*end of logo*/
+/*button read-more*/
+.main{ 
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+.title h1{
+	color: white;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	top:62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6 ease;
+}
+.btn:hover{
+	background-color:#fff;
+	color: #000;
+	transition: all 0.9s ease-out;
+
+}
+/*button end*/
+
+/*end of header*/
+/*about us part */
+
+.aboutus #image{
+	height: 700px;
+	width: 800px;
+}
+.heading h2{
+	margin-top: -200px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}
+.description p{
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+/*end of about us*/
+/*vision-mission*/
+.vision-mission img{
+	margin-top: 50px;
+	height: 650px;
+	width: 900px;
+	margin-bottom: 50px;
+}
+.vision{
+	margin-top: -20px;
+	margin-left: 200px;	
+}
+.mission{
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 80PX;
+}
+/*end of vision mission*/
+/*Sponsers*/
+.sponsers img{
+	height: 120px;
+	width: 320px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+/*end of sponsers */
+/*footer*/
+.footer {
+	height: 600px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+.footer .DCG  {
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 300px;
+}
+.footer .DCG h2{
+	color: #FFC300;
+}
+
+
+.footer .Services {
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 200px;
+}
+.footer .Services h2{
+	color: #FFC300;
+}
+
+
+.footer .Location {
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 200px;
+}
+.Location img{
+	margin-top: 10px;
+	height: 50px;
+	width: 50px;
+}
+.keepintouch{
+	margin-left: 30px;
+}
+.keepintouch img{
+	float: left;
+	margin-top: 10px;
+	height: 30px;
+	width: 30px;
+}
+.keepintouch h2{
+	color: #FFC300;
+}
+.DCG-logo img{
+	margin-top: 0px;
+	height: 150px;
+	width: 200px;
+}
+.DCG-logo h2{
+	margin-top:100px;
+	color: #FFC300;	
+}
+/*Upscroll*/
+.up-scroll button {
+	font-style: none;
+  margin: 50px 10px 0px 0px;
+  color: black;
+  font-size: 35px;
+  float: right;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}
+/*end of footer*/
+/*End of page*/
